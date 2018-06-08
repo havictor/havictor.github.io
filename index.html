@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="assets/css/reset.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.css">
         <link rel="stylesheet" href="assets/css/style.css">
+        <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
         <title>
-            Victor Ha's Portfolio
+            Victor Ha's Profile
         </title>
     </head>
     
@@ -15,8 +18,8 @@
                 <header class="navbar">
                 <div class="container">
                     <div class="navbar-brand">
-                    <a class="navbar-item">
-                        <h1>Victor Ha</h1>
+                    <a href="index.html" class="navbar-item">
+                        <h1 class="title">Victor Ha</h1>
                     </a>
                     <span class="navbar-burger burger" data-target="navbarMenuHeroC">
                         <span></span>
@@ -43,17 +46,37 @@
         </section>
 
 
-        <content class="content">
-            <div class="row">
-                <div class="col-sm-12 col-xs-12 col-md-8">
-                    <h2>About Me</h2>
-                    <img src="assets/images/selfie.jpg" id="Selfie" height="200" width="150">
-                    <p>Victor Ha was born in Toronto, Canada.  Despite his many early interests, he put most of the on the backburner to pursue a Bachelor's of Commerce (known as a Bachelor's of Administrative Studies at the time) at York University in the name of practicality.</p>
-                    <p>Upon graduation, he did not pursue his accounting background as planned, but instead continued at his day-job as a dispatcher, trying different things until he had his "AHAH!"-moment and found his passion.</p>
-                    <p>While playing around with on CodeAcademy, he discovered the joy and frustrations of coding and applying his logic and problem solving skills.  He knew his weakness lay in networking and resume/portfolio building, but soon discovered a BootCamp.</p>
-                    <p>With newfound determination, he applied, and the fact that you are reading this statement by means other than eavesdropping into hi
+        <content>
+
+            <div class="box content">
+                <div class="column is-centered">
+                
+                    <h2 id="aboutTitle">About Me</h2>
+
+                    <hr>
+
+                    <img src="assets/images/selfie.jpg" id="Selfie" height="200" width="150" class="is-left">
+                    <div id="aboutMe">
+                            Victor Ha was born in Toronto, Canada.  Despite his many early interests, he put most of the on the backburner to pursue a Bachelor's of Commerce (known as a Bachelor's of Administrative Studies at the time) at York University in the name of practicality.
+                            <br>
+                            Upon graduation, he did not pursue his accounting background as planned, but instead continued at his day-job as a dispatcher, trying different things until he had his "AHAH!"-moment and found his passion.
+                            <br>
+                            While playing around with on CodeAcademy, he discovered the joy and frustrations of coding and applying his logic and problem solving skills.  He knew his weakness lay in networking and resume/portfolio building, but soon discovered a BootCamp.
+                            <br>
+                            With newfound determination, he applied, and the fact that you are reading this statement by means other than eavesdropping into his thoughts and dreams is a result of said Bootcamp.
+                    </div>
+
                 </div>
             </div>
         </content>
+
+        <footer>
+            2018
+        </footer>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="./assets/javascript/logic.js"></script>
+        <script src="https://bulma.io/lib/main.js?v=201806071228"></script>
     </body>
+    
 </html>

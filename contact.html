@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="assets/css/reset.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+        <title>
+            Victor Ha's Contact Info
+        </title>
+    </head>
+    
+    <body>
+        <section class="hero is-success">
+            <div class="hero-head">
+                <header class="navbar">
+                <div class="container">
+                    <div class="navbar-brand">
+                    <a href="index.html" class="navbar-item">
+                        <h1 class="title">Victor Ha</h1>
+                    </a>
+                    <span class="navbar-burger burger" data-target="navbarMenuHeroC">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </span>
+                    </div>
+                    <div id="navbarMenuHeroC" class="navbar-menu">
+                    <div class="navbar-end">
+                        <a href="index.html" class="navbar-item">
+                        About
+                        </a>
+                        <a href="portfolio.html" class="navbar-item">
+                        Portfolio
+                        </a>
+                        <a href="contact.html" class="navbar-item is-active">
+                        Contact
+                        </a>
+                    </div>
+                    </div>
+                </div>
+                </header>
+            </div>
+        </section>
+
+        <content>
+            <div class="box content">
+                <div class="field">
+                    <label class="label">Name</label>
+                    <div class="control">
+                        <input class="input" type="text" placeholder="Your Name" id="name">
+                    </div>
+                </div>
+              
+                <div class="field">
+                    <label class="label">Email</label>
+                    <div class="control has-icons-left has-icons-right">
+                        <input class="input is-danger" type="email" placeholder="Your Email" value="hello@" id="email">
+                        <span class="icon is-small is-left">
+                            <i class="fas fa-envelope"></i>
+                        </span>
+                    </div>
+                </div>
+              
+                <div class="field">
+                    <label class="label">Message</label>
+                    <div class="control">
+                        <textarea class="textarea" placeholder="Your Message" id="emailMessage"></textarea>
+                    </div>
+                </div>
+              
+                <div class="field is-grouped">
+                    <div class="control">
+                    <button class="button is-link" id="submitEmail">Submit</button>
+                    </div>
+                    <div class="control">
+                    <button class="button is-text" id="cancel">Cancel</button>
+                    </div>
+                </div>
+            </div>
+        </content>
+
+        <footer>
+            2018
+        </footer>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="./assets/javascript/logic.js"></script>
+        <script src="https://bulma.io/lib/main.js?v=201806071228"></script>
+    </body>
+</html>
