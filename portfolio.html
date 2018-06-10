@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
         <link rel="stylesheet" href="assets/css/reset.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.css">
         <link rel="stylesheet" href="assets/css/style.css">
@@ -13,9 +14,11 @@
     </head>
     
     <body>
+        <!-- <div id="headerContainer"> -->
+
         <section class="hero is-success">
             <div class="hero-head">
-                <header class="navbar">
+                <header class="navbar" id="headerContainer">
                 <div class="container">
                     <div class="navbar-brand">
                     <a href="index.html" class="navbar-item">
@@ -45,53 +48,60 @@
             </div>
         </section>
 
+        <!-- </div> -->
+
         <content>
-            <div class="box content">
-                <div class="tile is-ancestor">
-                    <div class="tile">
-                        <div class="tile is-parent is-vertical">
-                            <div class="tile is-4 is-child">
+            <div class="content box">
+                <!-- <div class="tile is-ancestor"> -->
+                    <!-- <div class="tile"> -->
+                    <div class="columns is-multiline">
+                        <div class="column">
+                            <!-- <div class="tile is-child is-6"> -->
                                 <a href="https://havictor.github.io/Word-Guess-Game">
+                                    <p id="p1" class="title PortfolioText">Hangman</p>
                                     <img src="./assets/images/1.jpg" id="img1" class="PortfolioImage image is-4by3">
-                                    <div id="p1" class="PortfolioText">Hangman</div>
                                 </a>
-                            </div>
-                                    
-                            <div class="tile is-4 is-child">
+                            <!-- </div> -->
+                        </div>            
+                            <!-- <div class="tile is-child is-6"> -->
+                        <div class="column">            
                                     <a href="https://havictor.github.io/unit-4-game">
+                                        <p id="p2" class="title PortfolioText">RPG Game</p>
                                     <img src="./assets/images/2.jpg" id="img2" class="PortfolioImage image is-4by3">
-                                        <div id="p2" class="PortfolioText">RPG Game</div>
                                     </a>
-                            </div>
+                            <!-- </div> -->
                         </div>
                     
-
-                        <div class="tile is-parent is-vertical">
-                            <div class="tile is-4 is-child">
+                        <div class="column">
+                        <!-- <div class="tile is-parent is-vertical"> -->
+                            <!-- <div class="tile is-child is-6"> -->
                                 <a href="https://havictor.github.io/TriviaGame">
+                                    <p id="p3" class="title PortfolioText">Trivia Game</p>
                                     <img src="./assets/images/3.jpg" id="img3" class="PortfolioImage image is-4by3">
-                                    <div id="p3" class="PortfolioText">Trivia Game</div>
                                 </a>
-                            </div>
-
-                            <div class="tile is-4 is-child">
+                            <!-- </div> -->
+                        </div>
+                        <div class="column">
+                            <!-- <div class="tile is-child is-6"> -->
                                     <a href="Widget.html">
+                                        <p id="p4" class="title PortfolioText">Rutgers Info Widget</p>
                                     <img  src="./assets/images/4.jpg" id="img4" class="PortfolioImage image is-4by3">
-                                        <div id="p4" class="PortfolioText">Rutgers Info Widget</div>
                                     </a>
-                            </div>
-                            
+                            <!-- </div> -->
                         </div>
-                        <div class="tile is-parent is-vertical">
-                        <div class="tile is-4 is-child">
+
+                        <div class="column">    
+                        <!-- <div class="tile is-parent is-vertical"> -->
+                        <!-- <div class="tile is-child is-6"> -->
                             <a href="https://havictor.github.io/RPS-Multiplayer">
+                                <p id="p5" class="title PortfolioText">Rock Paper Scissors</p>
                                 <img src="./assets/images/5.jpg" id="img5" class="PortfolioImage image is-4by3">
-                                <div id="p5" class="PortfolioText">Rock Paper Scissors</div>
+
                             </a>
-                        </div>
+                        <!-- </div> -->
                         </div>
                     </div>
-                </div>
+                <!-- </div> -->
             </div>
         </content>
 

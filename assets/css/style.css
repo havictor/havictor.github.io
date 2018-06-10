@@ -1,5 +1,7 @@
 body {
     background-image: url("../images/darkness.png");
+    height: 200vh;
+    font-family: 'Roboto Slab', serif;  
     }
 
 .content {
@@ -21,8 +23,20 @@ body {
     margin-bottom: 40px;
 }
 
+.hero-head {
+    background-color: #0d5dd6
+}
+
+.hero.is-success a.navbar-item:hover, .hero.is-success a.navbar-item.is-active, .hero.is-success .navbar-link:hover, .hero.is-success .navbar-link.is-active {
+    background-color: #247cff
+} 
+
+/* .hero.is-success {
+    background-color: #247cff
+} */
+
 footer {
-    background-color: #23d160;
+    background-color: #0d5dd6;
     color: #ffffff;
     position: fixed;
     bottom: 0px;
@@ -33,4 +47,10 @@ footer {
 
 #contactForm {
     background-color: grey;
+}
+
+#headerContainer {
+    max-width: 960px;
+    margin: auto;
+    padding: 0px 30px;
 }
