@@ -31,6 +31,14 @@ body {
     background-color: #247cff
 } 
 
+.navbar-item {
+    background-color: #0d5dd6
+}
+
+#navbarMenuHeroC {
+    background-color: #0d5dd6
+}
+
 /* .hero.is-success {
     background-color: #247cff
 } */
@@ -53,4 +61,8 @@ footer {
     max-width: 960px;
     margin: auto;
     padding: 0px 30px;
+}
+
+.hidden {
+    visibility: hidden;
 }
