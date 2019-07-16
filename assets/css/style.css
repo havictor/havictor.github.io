@@ -71,3 +71,7 @@ footer {
     max-width: 320px;
     max-height: 240px
 }
+
+.card-content {
+    background-image: url("../images/darkness.png");
+}
