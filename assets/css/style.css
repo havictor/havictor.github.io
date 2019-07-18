@@ -10,6 +10,12 @@ body {
     margin-bottom: 40px;
 }
 
+#caro {
+        max-width: 960px;
+        margin: auto;
+        margin-bottom: 40px;
+}
+
 #Selfie {
     float: left;
     margin-right: 30px;
