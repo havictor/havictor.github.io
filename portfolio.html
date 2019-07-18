@@ -1,139 +1,170 @@
 <!DOCTYPE html>
+
 <html>
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
         <link rel="stylesheet" href="assets/css/reset.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
         <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.4/dist/css/bulma-carousel.min.css">
         <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
         <title>
             Victor Ha's Portfolio
         </title>
     </head>
     
     <body>
-        <!-- <div id="headerContainer"> -->
 
         <section class="hero is-success">
             <div class="hero-head">
                 <header class="navbar" id="headerContainer">
-                <div class="container">
-                    <div class="navbar-brand">
-                    <a href="index.html" class="navbar-item">
-                        <h1 class="title">Victor Ha</h1>
-                    </a>
-                    <span class="navbar-burger burger" data-target="navbarMenuHeroC">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </span>
+                    <div class="container">
+                        <div class="navbar-brand">
+                            <a href="index.html" class="navbar-item">
+                                <h1 class="title">Victor Ha</h1>
+                            </a>
+                            <span class="navbar-burger burger" data-target="navbarMenuHeroC">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </span>
+                        </div>
+                        
+                        <div id="navbarMenuHeroC" class="navbar-menu">
+                            <div class="navbar-end">
+                                <a href="index.html" class="navbar-item">
+                                About
+                                </a>
+                                <a href="portfolio.html" class="navbar-item is-active">
+                                Portfolio
+                                </a>
+
+                                <a href="https://github.com/havictor" class="navbar-item">
+                                    <i class="fab fa-github fa-2x"></i>
+                                </a>    
+                                <a href="https://www.linkedin.com/in/victor-ha/" class="navbar-item">
+                                    <i class="fab fa-linkedin fa-2x"></i>
+                                </a>
+                                <a href="mailto:victorha@gmail.com" class="navbar-item">
+                                    <i class="fas fa-envelope fa-2x"></i>
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                    <div id="navbarMenuHeroC" class="navbar-menu">
-                    <div class="navbar-end">
-                        <a href="index.html" class="navbar-item">
-                        About
-                        </a>
-                        <a href="portfolio.html" class="navbar-item is-active">
-                        Portfolio
-                        </a>
-                        <!-- <a href="contact.html" class="navbar-item">
-                            Contact
-                        </a> -->
-                        <a href="https://github.com/havictor" class="navbar-item">
-                            <i class="fab fa-github fa-2x"></i>
-                        </a>    
-                        <a href="https://www.linkedin.com/in/victor-ha/" class="navbar-item">
-                            <i class="fab fa-linkedin fa-2x"></i>
-                        </a>
-                        <a href="mailto:victorha@gmail.com" class="navbar-item">
-                            <i class="fas fa-envelope fa-2x"></i>
-                        </a>
-                    </div>
-                    </div>
-                </div>
                 </header>
             </div>
         </section>
 
-        <!-- </div> -->
 
-        <content>
-            <div class="content box">
-                <!-- <div class="tile is-ancestor"> -->
-                    <!-- <div class="tile"> -->
-                    
-
-                    <div class="columns is-multiline is-centered is-flex-desktop">
-                        <div class="column">            
-                            <a href="https://morning-beyond-53206.herokuapp.com/" target="_blank">
-                                <p id="p5" class="PortfolioText subtitle">Burger mySQL Database</p>
-                                <img src="./assets/images/5.jpeg" id="img5" class="PortfolioImage">
-                            </a>
-                        <!-- </div> -->
-                            <div>
-                                <a href="https://github.com/havictor/burger" target="_blank">Github Repo</a>
+        <!-- <content class="content box"> -->
+            <section class="section">
+                <div class="container" id="caro">
+                    <!-- Start Carousel -->
+                        
+                        <div class="carousel" id="carousel-projects">
+                            <div class="item-1 card">
+                                <!-- <div class="card">  -->
+                                                
+                                    <a href="https://morning-beyond-53206.herokuapp.com/" target="_blank">
+                                        <p id="p5" class="PortfolioText subtitle card-header-title">Burger mySQL Database</p>
+                                        <figure class="image is-4by3  is-covered">  
+                                            <img src="./assets/images/5.jpeg" id="img5" class="PortfolioImage">
+                                        </figure>
+                                    </a> 
+                                    
+                                    <div class="card-content">
+                                        <a href="https://github.com/havictor/burger" target="_blank">Github Repo</a>
+                                    </div>
+                                <!-- </div> -->
                             </div>
+
+                            <div class="item-2 card">
+                                <!-- <div class="card"> -->
+                                    <a href="https://havictor.github.io/Word-Guess-Game" target="_blank">
+                                        <p id="p1" class="PortfolioText subtitle card-header-title">Hangman</p>
+                                        <figure class="image is-4by3  is-covered">  
+                                            <img src="./assets/images/hangman.png" id="img1" class="PortfolioImage">
+                                        </figure>
+                                    </a>
+                                    <div class="card-content">
+                                        <a href="https://github.com/havictor/Word-Guess-Game" target="_blank">Github Repo</a>
+                                    </div>
+                                <!-- </div>  -->
+                            </div>
+
+                            <div class="item-3 card">
+                                <!-- <div class="card">      -->
+                                        <a href="https://havictor.github.io/unit-4-game" target="_blank">
+                                            <p id="p2" class="PortfolioText subtitle card-header-title">RPG Game</p>
+                                            <figure class="image is-4by3  is-covered">
+                                                <img src="./assets/images/rpg.png" id="img2" class="PortfolioImage">
+                                            </figure>
+                                        </a>
+                                    <div class="card-content">
+                                        <a href="https://github.com/havictor/unit-4-game" target="_blank">Github Repo</a>
+                                    </div>
+                                <!-- </div> -->
+                            </div>
+
+                            <div class="item-4 card">
+                                <!-- <div class="card"> -->
+                                    <a href="https://havictor.github.io/TriviaGame" target="_blank">
+                                        <p id="p3" class="subtitle PortfolioText card-header-title">Trivia Game</p>
+                                        <figure class="image is-4by3  is-covered">
+                                            <img src="./assets/images/trivia.png" id="img3" class="PortfolioImage">
+                                        </figure>
+                                    </a>
+                                    <div class="card-content">
+                                        <a href="https://github.com/havictor/TriviaGame" target="_blank">Github Repo</a>
+                                    </div>
+                                <!-- </div> -->
+                            </div>
+
+
+                            <div class="item-5 card">
+                                <!-- <div class="card">  -->
+                                        <a href="https://havictor.github.io/Music-App" target="_blank">
+                                            <p id="p5" class="subtitle PortfolioText card-header-title">Concert Finder</p>
+                                            <figure class="image is-4by3  is-covered">
+                                                <img src="./assets/images/concertFinder.png" id="img4" class="PortfolioImage">
+                                            </figure>
+                                        </a>
+                                    <div class="card-content">
+                                        <a href="https://github.com/havictor/Music-App" target="_blank">Github Repo</a>
+                                    </div>
+                                <!-- </div> -->
+                            </div>
+                            
                         </div>
-
-                        <div class="column">
-                            <!-- <div class="tile is-child is-6"> -->
-                                <a href="https://havictor.github.io/Word-Guess-Game" target="_blank">
-                                    <p id="p1" class="PortfolioText subtitle">Hangman</p>
-                                    <img src="./assets/images/1.png" id="img1" class="PortfolioImage">
-                                </a>
-                            <!-- </div> -->
-                            <div>
-                                <a href="https://github.com/havictor/Word-Guess-Game" target="_blank">Github Repo</a>
-                            </div>
-                        </div>            
-                            <!-- <div class="tile is-child is-6"> -->
-                        <div class="column">            
-                                <a href="https://havictor.github.io/unit-4-game" target="_blank">
-                                    <p id="p2" class="PortfolioText subtitle">RPG Game</p>
-                                    <img src="./assets/images/2.jpg" id="img2" class="PortfolioImage">
-                                </a>
-                            <!-- </div> -->
-                            <div>
-                                <a href="https://github.com/havictor/unit-4-game" target="_blank">Github Repo</a>
-                            </div>
-                        </div>
-                    
-                        <div class="column">
-                        <!-- <div class="tile is-parent is-vertical"> -->
-                            <!-- <div class="tile is-child is-6"> -->
-                                <a href="https://havictor.github.io/TriviaGame" target="_blank">
-                                    <p id="p3" class="subtitle PortfolioText">Trivia Game</p>
-                                    <img src="./assets/images/3.jpg" id="img3" class="PortfolioImage">
-                                </a>
-                            <!-- </div> -->
-                            <div>
-                                <a href="https://github.com/havictor/TriviaGame" target="_blank">Github Repo</a>
-                            </div>
-                        </div>
-
-                        <div class="column">    
-                            <a href="https://havictor.github.io/Music-App" target="_blank">
-                                <p id="p4" class="subtitle PortfolioText">Concert Finder</p>
-                                <img src="./assets/images/4.jpg" id="img4" class="PortfolioImage">
-                            </a>
-                            <div>
-                                <a href="https://github.com/havictor/Music-App" target="_blank">Github Repo</a>
-                            </div>
-                        </div>
-
-                    </div>
-                <!-- </div> -->
-            </div>
-        </content>
+                    <!-- End Carousel -->
+                </div>
+            </section>
+        <!-- </content> -->
 
         <footer>
             2018
         </footer>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="./assets/javascript/logic.js"></script>   
         <script src="https://bulma.io/lib/main.js?v=201806071228"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.4/dist/js/bulma-carousel.min.js"></script>
+        <script src="~bulma-carousel/dist/js/bulma-carousel.min.js"></script>
+
+
+
+ 
+
+        <script>
+                bulmaCarousel.attach('#carousel-projects', {
+                    slidesToScroll: 1,
+                    slidesToShow: 3,
+                    loop: true
+                });
+        </script>
+
+        <script src="./assets/javascript/logic.js"></script>  
     </body>
 </html>
