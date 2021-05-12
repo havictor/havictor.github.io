@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/havictor/havictor.github.io#readme",
   "dependencies": {
-    "nodemailer": "^4.6.5"
+    "nodemailer": "^6.4.16"
   }
 }
